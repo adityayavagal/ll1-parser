@@ -1,0 +1,17 @@
+int main()
+	char operator;
+	int firstNumber , secondNumber;
+
+	switch(operator)
+	begin    
+		case '+':
+		printf(firstNumber + secondNumber);
+		break;
+		case '-':
+            	printf(firstNumber - secondNumber);
+		break;
+		default:
+			printf( firstNumber + firstNumber);
+			break;
+        end 
+return 0; 

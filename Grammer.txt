@@ -1,0 +1,22 @@
+S -> T MAIN ( ) B RETURN VAL ;
+B -> D B'
+B' -> SW 
+B' -> ''
+D -> T ID L ; D
+D -> ''
+L -> , ID L
+L -> ''
+T -> INT
+T -> CHAR
+T -> FLOAT
+SW -> SWITCH ( ID ) BEGIN ST END
+ST -> C ST'
+ST' -> DEF 
+ST' -> ''
+C -> CASE VAL : E C
+C -> BREAK ; C 
+C -> ''
+DEF -> DEFAULT : E BREAK ;
+E -> PRINT ( ID OP ID ) ;
+VAL -> ID
+VAL -> NUM

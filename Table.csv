@@ -1,0 +1,14 @@
+	MAIN	(	)	RETURN	;	ID	,	INT	CHAR	FLOAT	SWITCH	BEGIN	END	CASE	:	BREAK	DEFAULT	PRINT	OP	NUM	$
+S	-	-	-	-	-	-	-	T MAIN ( ) B RETURN VAL ;	T MAIN ( ) B RETURN VAL ;	T MAIN ( ) B RETURN VAL ;	-	-	-	-	-	-	-	-	-	-	-
+B	-	-	-	D B'	-	-	-	D B'	D B'	D B'	D B'	-	-	-	-	-	-	-	-	-	-
+B'	-	-	-		-	-	-	-	-	-	SW	-	-	-	-	-	-	-	-	-	-
+D	-	-	-		-	-	-	T ID L ; D	T ID L ; D	T ID L ; D		-	-	-	-	-	-	-	-	-	-
+L	-	-	-	-		-	, ID L	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+T	-	-	-	-	-	-	-	INT	CHAR	FLOAT	-	-	-	-	-	-	-	-	-	-	-
+SW	-	-	-	-	-	-	-	-	-	-	SWITCH ( ID ) BEGIN ST END	-	-	-	-	-	-	-	-	-	-
+ST	-	-	-	-	-	-	-	-	-	-	-	-	C ST'	C ST'	-	C ST'	C ST'	-	-	-	-
+ST'	-	-	-	-	-	-	-	-	-	-	-	-		-	-	-	DEF	-	-	-	-
+C	-	-	-	-	-	-	-	-	-	-	-	-		CASE VAL : E C	-	BREAK ; C		-	-	-	-
+DEF	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	DEFAULT : E ; BREAK ;	-	-	-	-
+E	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	PRINT ( ID OP ID ) ;	-	-	-
+VAL	-	-	-	-	-	ID	-	-	-	-	-	-	-	-	-	-	-	-	-	NUM	-
